@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+    "name": "ScriptKit Browser Extension",
+    "version": "1.0",
+
+    "description": "Adds browser functions to ScriptKit",
+
+    "icons": {
+        "48": "icons/border-48.png"
+    },
+
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "script_kit@example.org",
+            "strict_min_version": "50.0"
+        }
+    },
+
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "permissions": ["tabs", "nativeMessaging"]
+}

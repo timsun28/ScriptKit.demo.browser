@@ -1,0 +1,7 @@
+{
+    "name": "script_kit",
+    "description": "Script kit host file",
+    "path": "/path/to/native-messaging/app/ping_pong.py",
+    "type": "stdio",
+    "allowed_extensions": ["script_kit@example.org"]
+}
